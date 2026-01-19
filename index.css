@@ -327,5 +327,55 @@ nav li:hover a{
         gap: 5px;
         color: #09e49e;
     }
+
+    .host-section{
+        margin-top: 7.5rem;
+    }
+
+    .host-main-section{
+        width: 75rem;
+        height: 17.5rem;
+        margin: 2.5rem auto 0;
+        background-color: #230e3d;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+        padding: 2.5rem;
+    }
+
+    .host-img{
+        border-radius: 50%;
+    }
+
+    .host-img img{vertical-align: middle;}
+
+    .host-text{
+        margin-left: 1.5rem;
+    }
+
+    .host-links{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 1.625rem;
+    }
+
+    .host-links-div{
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        border: 1px solid #9100f8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s ease;
+    }
+
+    .host-links-div:hover{
+        background-color: white;
+        border: none;
+    }
     
 }
