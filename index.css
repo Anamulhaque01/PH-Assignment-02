@@ -377,5 +377,39 @@ nav li:hover a{
         background-color: white;
         border: none;
     }
+
+    /*------------------------------------------------------- Large-Display Footer Section -------------------------------------------------------*/
     
+    footer{
+        height: 25.75rem;
+        background-image: url(./assets/footer-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 7.5rem;
+        padding: 7.5rem 0;
+    }
+
+    .footer-main-div{
+        margin: 0 auto;
+        width: 85rem;
+        height: 10.75rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-links{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        margin:2rem 0;
+    }
+
+    .footer-links-div{
+        display: flex;
+        align-items: center;
+        gap: 7px;
+    }
+
 }
