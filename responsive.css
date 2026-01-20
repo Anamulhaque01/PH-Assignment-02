@@ -62,20 +62,11 @@
         margin-left:48% !important;
         margin-top: 40px !important;
         transform: scale(0.8);
-        animation: animate2 6s ease-in-out infinite !important;
+        
     }
 
-        @keyframes animate2 {
-    0% {
-        transform: scale(0.8);
-    }
-    50% {
-        transform: scale(1);
-        box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.9);    }
-    100% {
-        transform: scale(0.8);
-    }
-}
+
+
 
     .hero-section{
         padding:0 1px !important;
