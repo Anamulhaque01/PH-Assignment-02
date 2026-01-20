@@ -46,7 +46,7 @@ nav li:hover a{
     color:var(--3-color);
 }
 
-@media screen and (min-width: 992px) {
+
 
     section{
         width: 100rem;
@@ -122,10 +122,11 @@ nav li:hover a{
         box-shadow: 0 0 20px rgba(251, 9, 180, 0.6);
     }
 
+    .hamburger-menu{display: none;}
+
 /*------------------------------------------------------- Large-Display Hero Section -------------------------------------------------------*/
 
     .hero-section{
-        background-color: #f7e93f;
         height: 47.5rem;
         background-image: url(./assets/hero-bg.png);
         background-repeat: no-repeat;
@@ -411,5 +412,4 @@ nav li:hover a{
         align-items: center;
         gap: 7px;
     }
-
-}
+/* } */
